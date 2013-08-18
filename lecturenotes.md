@@ -11,6 +11,8 @@ Lecture Notes
 * Go over syllabus
 * Talk about books
 * Visit http://processing.org
-* First program
+* First programs (GS 2-1, 2-2)
+* Tour Processing IDE; modes (take Android device + cable to class)
+
 
 
