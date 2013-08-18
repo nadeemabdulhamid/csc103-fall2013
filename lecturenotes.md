@@ -20,6 +20,9 @@ These notes are primarily for my use, but are made available here in case they a
   * Modes; demo JS + Android (take device + cable to class)
   * Examples; also for [GS] and [PH]
 * Algorithms; pseudocode; Generative art [GXK 33-38]
+  * [Digital Art](http://en.wikipedia.org/wiki/Digital_art), [Generative Art](http://en.wikipedia.org/wiki/Generative_art), [Interactive Art](http://en.wikipedia.org/wiki/Interactive_art) @ (Wikipedia)
+  * [Algorithmic Art](http://www.verostko.com/algorithm.html) by Roman Verostko
+  * [compArt](http://dada.compart-bremen.de)
 * Processing concepts:
   * Pixels: [01/mag](code/01/mag)
   * Coordinate systems: [01/coords](code/01/coords)
