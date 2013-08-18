@@ -1,7 +1,7 @@
 Lecture Notes
 =============
 
-## <a id="lecture1"></a>Lecture 1
+## Lecture 1
 
 * Introduction to this class: what is computing? why are we here? 
   * [Code video](http://www.youtube.com/watch?v=dU1xS07N-FA)
