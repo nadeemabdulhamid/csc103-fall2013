@@ -11,6 +11,7 @@ These notes are primarily for my use, but are made available here in case they a
 * Processing: what? why? 
   * [Processing video](http://thecreatorsproject.vice.com/creators/casey-reas)
 * What is a programming language? What kinds are there? Bits bytes and beyond [GXK 4-8]
+  * [01/bits](code/01/bits)
 * Go over syllabus
 * Talk about books
 * Visit http://processing.org
@@ -19,6 +20,12 @@ These notes are primarily for my use, but are made available here in case they a
   * Modes; demo JS + Android (take device + cable to class)
   * Examples; also for [GS] and [PH]
 * Algorithms; pseudocode; Generative art [GXK 33-38]
+* Processing concepts:
+  * Pixels: [01/mag](code/01/mag)
+  * Coordinate systems: [01/coords](code/01/coords)
+  * Colors: [01/rgba](code/01/rgba)
+
+## Lecture 2
 
 
 
