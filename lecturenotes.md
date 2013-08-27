@@ -12,8 +12,9 @@ These notes are primarily for my use, but are made available here in case they a
   * [Processing video](http://thecreatorsproject.vice.com/creators/casey-reas)
 * What is a programming language? What kinds are there? Bits bytes and beyond [GXK 4-8]
   * [01/bits](code/01/bits)
-* Go over syllabus
+* Go over syllabus; attendance sign-in sheets
 * Talk about books
+* Office hours, TAs
 * Visit http://processing.org
 * First programs (GS 2-1, 2-2)
 * Tour Processing IDE
