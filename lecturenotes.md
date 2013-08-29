@@ -30,6 +30,7 @@ These notes are primarily for my use, but are made available here in case they a
   * Pixels: [01/mag](code/01/mag)
   * Coordinate systems: [01/coords](code/01/coords)
   * Colors: [01/rgba](code/01/rgba)
+  * Ten Thousand Rectangles: [01/ttr](https://github.com/nadeemabdulhamid/csc103-fall2013/raw/master/code/01/ten_thousand_rectangles/ten_thousand_rectangles.pde)
 
 ## Week 2
 
