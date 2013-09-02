@@ -34,6 +34,20 @@ These notes are primarily for my use, but are made available here in case they a
 
 ## Week 2
 
+* Code elements
+  * [Comments](http://en.wikipedia.org/wiki/Comment_(computer_programming\))
+  * [Expressions](http://en.wikipedia.org/wiki/Expression_(computer_science\)) and [statements](http://en.wikipedia.org/wiki/Statement_(programming\))
+  * Function calls
+* Processing drawing and color functions
+  * Basic shapes
+  * (Processing reference)[http://processing.org/reference]
+  * Drawing order (GS 3-9)
+  * Shape properties
+    * [smooth](http://processing.org/reference/smooth_.html)/noSmooth
+    * noStroke/[strokeWeight](http://processing.org/reference/strokeWeight_.html)/[strokeJoin](http://processing.org/reference/strokeJoin_.html)
+    * GS: 3-11, 3-12, 3-13
+  * Drawing modes: PH 2-40, 2-41
+
 
 
 
