@@ -49,6 +49,8 @@ These notes are primarily for my use, but are made available here in case they a
 * Example: Berry Old Mill
 * In-class exercises
 
+---
+
 * Additional shapes
   * arc, curve, bezier, shape+vertex
   * Code [02.zip](https://www.dropbox.com/s/veyymam666qahpp/02.zip):
