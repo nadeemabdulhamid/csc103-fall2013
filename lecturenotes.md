@@ -48,12 +48,14 @@ These notes are primarily for my use, but are made available here in case they a
   * Drawing modes: PH 2-40, 2-41
 * Example: Berry Old Mill
 * In-class exercises
+
 * Additional shapes
   * arc, curve, bezier, shape+vertex
   * Code [02.zip](https://www.dropbox.com/s/veyymam666qahpp/02.zip):
     * Examples: AlphaChannels, CartoonCharacter1, LadyBug1, Monster1, Ndebele, Penguin1, Sushi
     * Useful Tools: Arc Editor, Curve Editor, Bezier Editor
-* In-class exercises
+* Introduction to variables
+* In-class work
 
 
 
