@@ -46,11 +46,14 @@ These notes are primarily for my use, but are made available here in case they a
     * [smooth](http://processing.org/reference/smooth_.html)/noSmooth
     * noStroke/[strokeWeight](http://processing.org/reference/strokeWeight_.html)/[strokeJoin](http://processing.org/reference/strokeJoin_.html)/[strokeCap](http://processing.org/reference/strokeCap_.html): PH 2-37, 2-38, 2-39 or GS: 3-11, 3-12, 3-13
   * Drawing modes: PH 2-40, 2-41
+* Example: Berry Old Mill
+* In-class exercises
 * Additional shapes
   * arc, curve, bezier, shape+vertex
   * Code [02.zip](https://www.dropbox.com/s/veyymam666qahpp/02.zip):
     * Examples: AlphaChannels, CartoonCharacter1, LadyBug1, Monster1, Ndebele, Penguin1, Sushi
     * Useful Tools: Arc Editor, Curve Editor, Bezier Editor
+* In-class exercises
 
 
 
