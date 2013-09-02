@@ -40,7 +40,7 @@ These notes are primarily for my use, but are made available here in case they a
   * Function calls
 * Processing drawing and color functions
   * Basic shapes
-  * (Processing reference)[http://processing.org/reference]
+  * [Processing reference](http://processing.org/reference)
   * Drawing order (GS 3-9)
   * Shape properties
     * [smooth](http://processing.org/reference/smooth_.html)/noSmooth
