@@ -46,8 +46,7 @@ These notes are primarily for my use, but are made available here in case they a
     * [smooth](http://processing.org/reference/smooth_.html)/noSmooth
     * noStroke/[strokeWeight](http://processing.org/reference/strokeWeight_.html)/[strokeJoin](http://processing.org/reference/strokeJoin_.html)/[strokeCap](http://processing.org/reference/strokeCap_.html): PH 2-37, 2-38, 2-39 or GS: 3-11, 3-12, 3-13
   * Drawing modes: PH 2-40, 2-41
-* Example: Berry Old Mill
-* In-class exercises
+* In-class exercise
 
 ---
 
