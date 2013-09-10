@@ -61,10 +61,15 @@ These notes are primarily for my use, but are made available here in case they a
 ## Week 3
 
 * Static sketch presentations
-* [ITP notes](http://itp.nyu.edu/varwiki/Syllabus/NotesWeek2) and [Dan O'Sullivan ITP notes](http://itp.nyu.edu/varwiki/Syllabus/ICM-Dan-OSullivan-F07-Basics)
-  * [Bakse notes](http://pudt1203.justinbakse.com/wordpress/week-2/); [control flow](http://pudt1203.justinbakse.com/wordpress/week-3/); [interactivity](http://pudt1203.justinbakse.com/wordpress/week-4/)
-  * [Solomon notes](http://a.parsons.edu/~solomonr/creative-computing/2011-spring/week02.html)
-* Static vs. dynamic sketches
+* Variables: Declare, Initialize, Use 
+  * GS: robot1 vs. robot2
+  * Primitive Data Types
+  * Built-in variables: mouseX mouseY width height
+  * `draw_loop_input` sketch
+  * scope: local vs. global
+* Random: `interactive_random` sketch
+  * `bird` example
+* Static vs. dynamic sketches (`expanding` sketch)
   * the flow: setup() and draw()
   * The setup function is run once, at the beginning of the execution of any processing applet. It is typically used to set things like background, size and other items that don't change.
 
@@ -86,13 +91,14 @@ void draw()
 
 * GenArt listing 2.1 (expanding)
 
-* Variables: Declare, Initialize, Use 
-  * Primitive Data Types
-  * mouseX mouseY width height
-  * scope: local vs. global
+
 * [Random numbers](http://processing.org/reference/random_.html)
 * Basic debugging: println
 * Conditionals
+
+* [ITP notes](http://itp.nyu.edu/varwiki/Syllabus/NotesWeek2) and [Dan O'Sullivan ITP notes](http://itp.nyu.edu/varwiki/Syllabus/ICM-Dan-OSullivan-F07-Basics)
+  * [Bakse notes](http://pudt1203.justinbakse.com/wordpress/week-2/); [control flow](http://pudt1203.justinbakse.com/wordpress/week-3/); [interactivity](http://pudt1203.justinbakse.com/wordpress/week-4/)
+  * [Solomon notes](http://a.parsons.edu/~solomonr/creative-computing/2011-spring/week02.html)
 
 ---
 
