@@ -58,5 +58,38 @@ These notes are primarily for my use, but are made available here in case they a
 * Introduction to variables
 * In-class work
 
+## Week 3
+
+* Static sketch presentations
+* Static vs. dynamic sketches
+  * the flow: setup() and draw()
+  * The setup function is run once, at the beginning of the execution of any processing applet. It is typically used to set things like background, size and other items that don't change.
+
+```java
+void setup()
+{
+    // YOUR CODE IS RUN ONCE
+}
+```
+
+  * The draw function is executed in a loop. It is run continuously throughout the execution of the processing program.
+
+```java
+void draw()
+{
+    // YOUR CODE IS RUN OVER AND OVER AGAIN
+}
+```
+
+* Variables: Declare, Initialize, Use ([ITP notes](http://itp.nyu.edu/varwiki/Syllabus/NotesWeek2))
+  * Primitive Data Types
+  * mouseX mouseY
+  * random
+* Basic debugging: println
+
+
+
+
+
 
 
