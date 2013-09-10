@@ -84,18 +84,118 @@ void draw()
 }
 ```
 
-* GenArt listing 2.1
+* GenArt listing 2.1 (expanding)
 
 * Variables: Declare, Initialize, Use 
   * Primitive Data Types
   * mouseX mouseY width height
   * scope: local vs. global
-* Random numbers
+* [Random numbers](http://processing.org/reference/random_.html)
 * Basic debugging: println
 * Conditionals
 
+---
 
+### Variables
 
+[source](http://pudt1203.justinbakse.com/wordpress/week-2/)
+
+In a computer program variables are named pieces of data. Using variables allows you to 
+create code that is more general and reusable. For example: A piece of code that 
+can add 2 and 3 together is specific; a piece of code that can add any two numbers you 
+provide it is general, and much more useful.
+
+There are many benefits to variables:
+
+* Variables allow you to create general, reusable code.
+* Variables let you store a value so you can use it later.
+* Variables are used as parameters in functions.
+* Giving values a name makes it easier to understand code.
+* All variables have a name, a value and a type.
+
+The name of a variable doesn’t really matter to the computer, but choosing 
+good names is a very important part of creating readable code.
+
+The value of a variable can be changed while the program runs. 
+The value stays the same until your code changes it.
+
+The type of the variable determine what kind of value the variable holds. 
+`int` variables hold integer number values. `float` variables hold number 
+values with a decimal part. There are types to hold colors, words, 
+and even more complex concepts like images or videos.
+
+To create a variable you declare it. This code declares a variable named `age`, of type `int`:
+
+    int age;
+    
+This code also initializes the variable with a starting value:
+
+    int age = 3;
+    
+Once a variable is assigned you can assign it a new value:
+
+    age = 5;
+    
+You can assign a variable with the result of a calculation:
+
+    age = 5 + 1;
+    
+When you use the variables name in code, its value will be used. The following expression would add the current value of age to 2:
+
+    2 + age
+    
+This code will make the value go up by 1:
+
+    age = age + 1;
+
+(From _Generative Art_, Pearson)
+![Processing Data Types](https://raw.github.com/nadeemabdulhamid/csc103-fall2013/master/slides/datatypes.png)
+![Processing Data Types](https://raw.github.com/nadeemabdulhamid/csc103-fall2013/master/slides/operators.png)
+
+### Scope
+
+All variables have a *scope*. The variable’s scope determines how much of 
+the code knows about the variable. With a few exceptions the scope of a 
+variable is limited to the pair of braces it is declared within. Variables 
+will not be visible to the program outside these braces.
+
+http://processing.org/learning/basics/variablescope.html
+
+### Style: Variable Names
+
+* Most importantly, variable names should accurately describe the data they hold.
+* Longer, more descriptive names should be used for variables used widely in the program.
+* Shorter names make sense when the variable is only used in a single area.
+* Seperate words an a variable useing camel case: buildingHeights, hitPoints, maxFuel.
+* Avoid abbrevations.
+* Be consistant
+
+### Conditional Statements: “if”
+
+Conditional statements allow you to specify that a block of code 
+will only be executed when a condition or test is met.
+
+This is the general syntax for a conditional statement:
+
+    if (condition/test) {
+        // do this if the test succeeds
+    } else {
+        // or do this instead
+    }
+This example draws a rectangle about 20% of the time.
+
+    if (random(100) < 20){
+        rect(10,10,10,10);
+    }
+The condition or test is an expression. Processing will 
+evaluate the expression. If the result is True 
+the code in the following block is executed. If 
+the result is False the code is not run.
+
+Relational operators like ==, !=, <, >, <=, and >= are 
+used to compare values.
+
+http://processing.org/reference/if.html
 
 
 
