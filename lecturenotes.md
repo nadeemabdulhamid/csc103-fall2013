@@ -61,6 +61,7 @@ These notes are primarily for my use, but are made available here in case they a
 ## Week 3
 
 * Static sketch presentations
+* [ITP notes](http://itp.nyu.edu/varwiki/Syllabus/NotesWeek2) and [Dan O'Sullivan ITP notes](http://itp.nyu.edu/varwiki/Syllabus/ICM-Dan-OSullivan-F07-Basics)
 * Static vs. dynamic sketches
   * the flow: setup() and draw()
   * The setup function is run once, at the beginning of the execution of any processing applet. It is typically used to set things like background, size and other items that don't change.
@@ -81,12 +82,15 @@ void draw()
 }
 ```
 
-* Variables: Declare, Initialize, Use ([ITP notes](http://itp.nyu.edu/varwiki/Syllabus/NotesWeek2))
-  * Primitive Data Types
-  * mouseX mouseY
-  * random
-* Basic debugging: println
+* GenArt listing 2.1
 
+* Variables: Declare, Initialize, Use 
+  * Primitive Data Types
+  * mouseX mouseY width height
+  * scope: local vs. global
+* Random numbers
+* Basic debugging: println
+* Conditionals
 
 
 
