@@ -203,5 +203,19 @@ used to compare values.
 
 http://processing.org/reference/if.html
 
+## Week 4
+
+* Conditionals
+  * if, else if, else
+* bouncing ball
+* boolean variables (mousePressed)
+* relational operators, logical operators
+* quad_conditional: https://cs.berry.edu/moodle/mod/resource/view.php?id=2508
+* mousePressed, keyPressed
+* hold down button: http://www.learningprocessing.com/examples/chapter-5/example-5-4/
+* button switch: http://www.learningprocessing.com/examples/chapter-5/example-5-5/
+* square following edge: http://www.learningprocessing.com/examples/chapter-5/example-5-8/
+ 
+
 
 
