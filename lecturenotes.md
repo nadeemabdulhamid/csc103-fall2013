@@ -216,6 +216,7 @@ http://processing.org/reference/if.html
 * button switch: http://www.learningprocessing.com/examples/chapter-5/example-5-5/
 * square following edge: http://www.learningprocessing.com/examples/chapter-5/example-5-8/
 * keys: Processing handbook: Input 2 (Keyboard) - p223 (unit 25 examples) 
+* `constrain()`, `map()`, `dist()`
 
 
 
