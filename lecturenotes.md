@@ -208,6 +208,7 @@ http://processing.org/reference/if.html
 * Conditionals
   * if, else if, else
 * bouncing ball
+  * add mouse? distance; easing
 * boolean variables (mousePressed)
 * relational operators, logical operators
 * quad_conditional: https://cs.berry.edu/moodle/mod/resource/view.php?id=2508
