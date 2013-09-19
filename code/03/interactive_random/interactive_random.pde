@@ -9,7 +9,7 @@ void setup() {
 }
 
 void draw() {
-  background(50,50,50);
+  background(50,50,50);  // comment out this line to not erase the background each time
 
   //draw circle
   fill(50, 255, 50);

@@ -1,6 +1,7 @@
 // Justin Bakse, PUDT 1203, Spring 2013
 // Draws a Bird, demonstrates use of variables, random, 
 // and math to make a parameterized drawing.
+// Every time you run it, the bird is a little different
 
 //choose a random size for the body
 float bodySize = random(20, 60);
