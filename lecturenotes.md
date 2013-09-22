@@ -221,4 +221,49 @@ http://processing.org/reference/if.html
 * `constrain()`, `map()`, `dist()`
 
 
+## Week 5
+
+### CREATING OUR OWN FUNCTIONS
+(Adapted from [Shawn van Every](http://itp.nyu.edu/~sve204/icm_fall06/week3.html), NYU)
+
+You can create your own functions that you can call anywhere else in your code. There are many
+advantages to writing functions rather than putting everything in the `setup()` or `draw()` functions.
+* Reuse: Writing a function for a commonly used set of commands that you can call over and over again. 
+For instance, you have a complex shape that you use throughout your code. Rather than cutting and pasting
+those instructions everywhere you can write them once and call it over and over again.
+* Encapsulation: Putting functionality in a function and thereby seperating it from the
+rest of the code helps in understanding the program. It also makes making changes to that code much easier.
+
+Functions (or _methods_ as we will later call them) comprise of the following parts:
+* Return Type: This is the type of data (or variable) that the function returns. So far we have only seen the built-in functions which return nothing and therefore use the type: `void`. Any of the other data types are acceptable as well.
+* Name: This is simply the name of the function or method. You will call or execute the function using this. An example is setup.
+* Arguments: You can pass data into a function through the use of arguments (also called _parameters_). These are specified as variables of a certain type (your choosing) that the function can then make use of. These variables are local to the function.
+* Body: These are the instructions or code that the function will execute when called.
+
+Here is an example:
+
+        // return type, function name, arguments, including types
+        int ourCoolFunction(int someInt, int someOtherInt)
+        {
+            // Declare a variable
+            int aThridInt;
+            // Do something valuable
+            aThirdInt = someInt * someOtherInt;
+            aThirdInt++;
+            // Return something (an integeter in our case as it must match the return type)
+            return aThirdInt;
+        }
+        
+We would run this function somewhere else in our code such as:
+
+        int myResult = ourCoolFunction(10,2);
+        print(myResult);
+        
+        int a = 10;
+        int b = 3;
+        int c = ourCoolFuntion(a,b);
+        print(c);
+
+
+
 
