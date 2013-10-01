@@ -301,5 +301,6 @@ Options:
 
 * counter2.pde
 
+* Examples: Getting Started book: Ex_04_06 to Ex_04_13
 
 
