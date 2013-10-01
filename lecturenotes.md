@@ -307,3 +307,19 @@ Options:
 
 * Monitoring/Force-quitting Java applets
 
+### Saving screenshots
+
+* Use [`saveFrame()`](http://processing.org/reference/saveFrame_.html), e.g.
+
+    void mousePressed() {
+       saveFrame("frame_####.png");
+    }
+
+.
+
+
+
+
+
+
+
