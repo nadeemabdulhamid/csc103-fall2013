@@ -264,6 +264,39 @@ We would run this function somewhere else in our code such as:
         int c = ourCoolFuntion(a,b);
         print(c);
 
+## Week 6: Iteration (Looping)
 
+* random_lines1.pde : what if we want to stop at 100 lines; and see all the lines drawn at once...
+
+Iteration: repetition of a block of code
+Options:
+* `while` loop
+* `for` loop
+
+### `while` loop
+
+    while ( boolean_expression ) { 
+       statements;
+       // ... continue ...;
+       // ... break ...;
+    }
+    
+• Statements are repeatedly executed while the boolean expression remains true;
+• To break out of a while loop, use `break`;
+• To stop execution of statements and start again from the top of the loop,  use `continue`;
+• All iterations can be written as while-loops.
+
+* counter1.pde
+* random_lines2.pde
+
+### `for` loop
+
+    for ( initialization; continuation_test; increment ) { 
+        statements;
+        // ... continue;
+        // ... break;
+    }
+    
+• initialization, continuation test and increment commands are part of statement
 
 
