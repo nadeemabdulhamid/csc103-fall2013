@@ -305,4 +305,5 @@ Options:
  * Getting Started book: Ex_04_06 to Ex_04_13
  * Processing Handbook: Unit 06: Control 2 
 
+* Monitoring/Force-quitting Java applets
 
