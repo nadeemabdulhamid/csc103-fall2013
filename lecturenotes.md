@@ -309,8 +309,9 @@ Options:
 
 ### Saving screenshots
 
-* Use [`saveFrame()`](http://processing.org/reference/saveFrame_.html), e.g.
+* Use [`saveFrame()`](http://processing.org/reference/saveFrame_.html), 
 
+For example:
 
     void mousePressed() {
         saveFrame("frame_####.png");
