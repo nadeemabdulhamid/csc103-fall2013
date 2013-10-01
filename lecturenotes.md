@@ -311,11 +311,12 @@ Options:
 
 * Use [`saveFrame()`](http://processing.org/reference/saveFrame_.html), e.g.
 
-    void mousePressed() {
-       saveFrame("frame_####.png");
-    }
 
-.
+    void mousePressed() {
+        saveFrame("frame_####.png");
+    }
+    
+
 
 
 
