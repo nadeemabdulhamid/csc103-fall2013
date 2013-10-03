@@ -317,7 +317,10 @@ For example:
         saveFrame("frame_####.png");
     }
     
-.
+---
+
+* geom_pattern sketch: transformations (rotate/translate/scale);  nested loops;  trigonometry
+
 
 
 
