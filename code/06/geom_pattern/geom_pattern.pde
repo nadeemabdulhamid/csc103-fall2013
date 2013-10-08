@@ -15,7 +15,10 @@ void draw() {
       pushMatrix();
       translate(x, y);
       scale(.5);
-      fill(map(dist(mouseX, mouseY, x, y), 0, 500, 255, 0));
+      //fill(map(dist(mouseX, mouseY, x, y), 0, 500, 255, 0), 0, 0);
+      fill(map(abs(x-mouseX), 0, width, 0, 255), 
+      0, 
+      map(abs(y-mouseY), 0, height, 0, 255));
       drawOne();
       popMatrix();
     }
@@ -63,8 +66,9 @@ void drawStar(int points, float outerRadius, float innerRadius) {
     float radius;
     if (p % 2 == 0) {
       radius = outerRadius;
-    } else {
-      radius = innerRadius; 
+    } 
+    else {
+      radius = innerRadius;
     }
     float x = radius * cos(radians(angle));
     float y = radius * sin(radians(angle));
@@ -89,9 +93,10 @@ void keyPressed() {
     else if (keyCode == UP) {
       startY = startY - 1;
       if (startY < -50) startY = 50;
-    } else if (keyCode == DOWN) {
-       startY = startY + 1;
-      if (startY > 50) startY = -50; 
+    } 
+    else if (keyCode == DOWN) {
+      startY = startY + 1;
+      if (startY > 50) startY = -50;
     }
   }
 }
