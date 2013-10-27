@@ -6,6 +6,9 @@
  * ground gets flooded!
  *
  * inspired by http://www.openprocessing.org/sketch/51282
+ *
+ * NOTE: this program would really benefit from being restructured
+ *       as an object-oriented program!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  */
 
 /* GLOBAL CONSTANTS */

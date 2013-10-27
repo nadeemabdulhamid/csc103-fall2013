@@ -7,7 +7,7 @@
 int NUM_TURTLES = 20;
 
 PImage turtleImage; 
-float[] turtles;
+float[] turtles;   // turtles[i] is how much percent (0 ... 100) each turtle has progressed across the screen
 
 void setup() {
   size(400, 400);
